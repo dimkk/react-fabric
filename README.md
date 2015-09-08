@@ -4,14 +4,26 @@ react-facric is a set of [React](http://facebook.github.io/react/) components th
 
 **Please note that this module is still in early development!**
 
-## Example
-The [docs project](https://github.com/kmees/react-fabric/blob/master/docs) included in the repository doubles as the example project. To run the docs project, follow these steps:
+## Example / Docs
+The [docs project](https://github.com/kmees/react-fabric/blob/master/docs) included in this repository doubles as the example project. To run the docs project, follow these steps:
 
 ```sh
 $ npm install
-$ npm run build:docs
-$ open docs/index.html
+$ cd docs/
+$ npm install
+$ npm start
 ```
+
+## Tests
+All components are unit tested. To run the tests, follow these steps:
+
+:warning: requires [iojs](https://iojs.org/en/)
+
+```sh
+$ npm install
+$ npm test
+```
+
 
 ## License
 This project is licensed under the terms of the [MIT License](https://github.com/kmees/react-fabric/blob/master/LICENSE)
